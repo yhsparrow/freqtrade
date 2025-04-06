@@ -160,4 +160,4 @@ class Strategy005(IStrategy):
         if conditions:
             dataframe.loc[reduce(lambda x, y: x & y, conditions), 'exit_long'] = 1
 
-        return datafram
+        return dataframe
