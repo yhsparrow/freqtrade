@@ -1,0 +1,39 @@
+{
+  "strategy_name": "Strategy005",
+  "params": {
+    "roi": {
+      "0": 0.05,
+      "20": 0.04,
+      "40": 0.03,
+      "80": 0.02,
+      "1440": 0.01
+    },
+    "stoploss": {
+      "stoploss": -0.1
+    },
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": 0.01,
+      "trailing_stop_positive_offset": 0.02,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": Infinity
+    },
+    "buy": {
+      "buy_fastd": 35,
+      "buy_fishRsiNorma": 63,
+      "buy_rsi": 5,
+      "buy_volumeAVG": 21
+    },
+    "sell": {
+      "sell_fishRsiNorma": 9,
+      "sell_minusDI": 66,
+      "sell_rsi": 19,
+      "sell_trigger": "rsi-macd-minusdi"
+    },
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2025-04-06 18:09:57.506987+00:00"
+}
